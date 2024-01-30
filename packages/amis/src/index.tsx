@@ -154,6 +154,7 @@ import './renderers/DateRange';
 import './renderers/MultilineText';
 import './renderers/OfficeViewer';
 import './renderers/AMIS';
+import './renderers/Custom/TestOne';
 
 import './compat';
 import './schemaExtend';

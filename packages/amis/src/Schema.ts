@@ -135,9 +135,11 @@ import {DateRangeSchema} from './renderers/DateRange';
 import {PasswordSchema} from './renderers/Password';
 import {WordsSchema} from './renderers/Words';
 import {RadioControlSchema} from './renderers/Form/Radio';
+import {TestOneSchema} from './renderers/Custom/TestOne';
 
 // 每加个类型，这补充一下。
 export type SchemaType =
+  | 'test-one'
   | 'form'
   | 'alert'
   | 'app'
@@ -363,6 +365,7 @@ export type SchemaType =
   | 'tooltip-wrapper';
 
 export type SchemaObject =
+  | TestOneSchema
   | PageSchema
   | FlexSchema
   | TplSchema
